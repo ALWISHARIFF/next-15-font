@@ -44,7 +44,7 @@ const benefits = [
 
 // Highlight Text Component - Key component focusing on the font styling
 function HighlightText() {
-  const { isMobile } = useWindowDimension();
+  // const { isMobile } = useWindowDimension();
 
   return (
     <div className="flex flex-col gap-6 lg:gap-16 pb-8 lg:pb-12">
